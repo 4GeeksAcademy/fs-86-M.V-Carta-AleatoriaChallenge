@@ -14,15 +14,33 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
+      <h1 class="mt-5">Hello Carlos!</h1>
+      <img
+        src="https://ca.slack-edge.com/T0BFXMWMV-U05S663DT8Q-5d9b6dc05a5b-512"
+      />
+      <h3>
+        Piensa en una carta y pulsa
+        <button onclick="generaUnaCartaAleatoria()">
+          <strong>"Magia"</strong>
+        </button>
+        cuando estes listo!.
+      </h3>
+      <div class="display-flex row justify-content-center gap-5">
+        <div id="carta1">
+          <span id="tipo1"></span>
+          <span id="valor1"></span>
+          <span id="segundo-Tipo"></span>
+        </div>
+        <div id="carta2">
+          <span id="tipo2"></span>
+          <span id="valor2"></span>
+          <span id="segundo-Tipo2"></span>
+        </div>
+      </div>
+
       <div class="fixed-bottom p-4">
         Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        <a href="https://www.4geeksacademy.com">Marco-MOV</a>
       </div>
     </div>
   </body>
